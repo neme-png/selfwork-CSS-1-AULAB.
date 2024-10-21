@@ -1,0 +1,62 @@
+.Logo{
+    background-image:url(http://127.0.0.1:5500/media/Aulab-300x169.png);
+    min-width: 5vh;
+    min-height: 10vh;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: left;
+}
+
+a span{
+    background-color: grey;
+}
+
+a span:hover{
+    background-color: red;
+}
+
+article .articolo1{
+    background-image: url(https://aulab.it/wp-content/uploads/2023/04/FREELANCE-DEVELOPER-LE-OPPORTUNITA-PER-I-LIBERI-PROFESSIONISTI-cover-768x432.jpg);
+    background-color: rgba(grey, grey, grey,);
+    background-repeat: no-repeat;
+    min-height: 25vh;
+    background-size: contain;   
+    background-position: left;
+}
+
+article .articolo2{
+    background-image: url(https://aulab.it/wp-content/uploads/2015/03/Chat-gpt-10-prompts-per-web-developer-768x432-1.jpg);
+    background-repeat: no-repeat;
+    min-height: 25vh;
+    background-size: contain;
+    background-position: left;
+}
+
+article .articolo3{
+    background-image: url(https://aulab.it/wp-content/uploads/2023/02/Articolo_Gestione-del-database-MySQL-cover-cover-768x432.jpg);
+    background-repeat: no-repeat;
+    min-height: 25vh;
+    background-size: contain;
+    background-position: left;
+}
+
+article > p {
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Spectral", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: darkgray;
+}
+
+h1{
+    color: darkgray;
+}
+
+hr{
+    border: 2px solid darkgrey;
+}
